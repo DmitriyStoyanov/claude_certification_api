@@ -1,11 +1,14 @@
 [
   {
-    "task": "Write a Python function that validates an AWS IAM role ARN string and returns True if valid, False otherwise. An ARN should follow the pattern: arn:aws:iam::account-id:role/role-name"
+    "task": "Create a regex pattern that matches valid AWS S3 bucket names (3-63 characters, lowercase letters, numbers, hyphens, must start and end with alphanumeric)",
+    "format": "regex"
   },
   {
-    "task": "Create a JSON object representing an AWS S3 bucket policy that allows public read access to all objects in the bucket named 'my-public-bucket'"
+    "task": "Generate a JSON CloudFormation template for creating a basic EC2 security group that allows HTTP and HTTPS inbound traffic",
+    "format": "json"
   },
   {
-    "task": "Write a regular expression that matches valid AWS EC2 security group IDs, which follow the pattern 'sg-' followed by exactly 8 or 17 hexadecimal characters (e.g., sg-0123abcd or sg-0123456789abcdef0)"
+    "task": "Write a Python function that parses an AWS CloudWatch Logs timestamp string and returns the time in ISO 8601 format",
+    "format": "python"
   }
 ]

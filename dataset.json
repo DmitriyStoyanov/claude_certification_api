@@ -1,11 +1,11 @@
 [
   {
-    "task": "Write a Python function that validates an AWS S3 bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, hyphens only, cannot start/end with hyphen)"
+    "task": "Write a Python function that validates an AWS IAM role ARN string and returns True if valid, False otherwise. An ARN should follow the pattern: arn:aws:iam::account-id:role/role-name"
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an AWS Lambda function resource with basic properties (FunctionName, Runtime, Handler, Role)"
+    "task": "Create a JSON object representing an AWS S3 bucket policy that allows public read access to all objects in the bucket named 'my-public-bucket'"
   },
   {
-    "task": "Write a regular expression that matches valid AWS IAM role ARN formats (arn:aws:iam::account-id:role/role-name)"
+    "task": "Write a regular expression that matches valid AWS EC2 security group IDs, which follow the pattern 'sg-' followed by exactly 8 or 17 hexadecimal characters (e.g., sg-0123abcd or sg-0123456789abcdef0)"
   }
 ]
